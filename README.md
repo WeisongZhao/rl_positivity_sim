@@ -1,5 +1,6 @@
-Inspired by Andrew, I open a GitHub page to have an open discussion on the deconvolution topic, all opinions are my own and may not be right.<br>
- Please just leave a message on [Twitter](https://twitter.com/weisong_zhao)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new) if you are interested. 
+Inspired by great idea of [Andrew](https://twitter.com/AndrewGYork), I open a GitHub page to have an open discussion on the deconvolution topic, all opinions are my own and may not be right.
+
+Please just leave a message on [Twitter](https://twitter.com/weisong_zhao)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new) if you are interested. 
 
 ## Inverse problem
 
@@ -32,11 +33,11 @@ That talk about the RL to show that difference in specific.
 ### Derivation of RL from Bayesianism (one-dimension notation)
 
 <p align="center">
-<img src='./IMG/RL-Bayesian.png' width=750>
+<img src='./IMG/RL-Bayesian.png' width=550>
 </p>
 
 ### Derivation of RL from Frequentism (one-dimension notation)
 
 <p align="center">
-<img src='./IMG/RL-Frequentism.png' width=750>
+<img src='./IMG/RL-Frequentism.png' width=550>
 </p>
