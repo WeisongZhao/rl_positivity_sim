@@ -4,7 +4,7 @@
 </p>  
 
 
-Inspired by great idea of [Andrew](https://twitter.com/AndrewGYork), I post a GitHub page to have an open discussion on the deconvolution topic, all opinions are my own and may not be right.
+Inspired by the great idea of [Andrew](https://twitter.com/AndrewGYork) for the scientific discussions on GitHub, I post a GitHub page to have an open discussion on the deconvolution topic, all opinions are my own and may not be right.
 
 Please just leave a message on [Twitter](https://twitter.com/weisong_zhao)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new) if you are interested. 
 
@@ -81,7 +81,7 @@ Of course, the real world is very complex, including Gaussian-Poisson noise, bac
 
 It is always a good way to add the corresponding prior knowledge to power the estimation. This word may be not restricting to deconvolution but all the algorithms.
 
-Taken an example of single molecular localization microscopy (SMLM) can also be treated as a `deconvolution` method, but it utilizes the strongest prior knowledge on the real fluorescent signal `x`, i.e., the isolate puncta, to achieve super-resolution in 10~20 times. However, the usage of such prior knowledge needs the specific designed experiment, and can not be applied to the conventional microscopes.
+Taken an example of single molecular localization microscopy (SMLM), which can also be treated as a `deconvolution` method, it utilizes the strongest prior knowledge on the real fluorescent signal `x`, i.e., the isolate puncta, to achieve super-resolution in 10~20 times. However, the usage of such prior knowledge needs the specific designed experiment, and can not be applied to the conventional microscopes.
 
 What we intend to do is to find the relatively weak but general (for fluorescence imaging) prior-knowledge in the [manuscript](https://www.researchsquare.com/article/rs-279271/v1), 
 
