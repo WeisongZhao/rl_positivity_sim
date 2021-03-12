@@ -41,3 +41,28 @@ That talk about the RL to show that difference in specific.
 <p align="center">
 <img src='./IMG/RL-Frequentism.png' width=550>
 </p>
+
+The **Frequentism** and **Bayesianism** who were all the while "deadly rivals" came together completely at this moment.
+
+## Perfect estimation under noise-free condition
+
+In the section of `Inverse problem` we used the view from the field of convex optimization.
+
+> What we're doing is trying to estimate the maximum possible `x` from the observed data `y`. If the `A` is a gaussian function, point source, and in noise-free condition, so the `x` and y are one–to–one correspondence.
+
+In the machine learning or convex optimization field, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `Ax` that is absolutely equal to `y`. 
+
+There are many solutions, including the Bayesian-based Richardson-Lucy deconvolution, which will be discussed below. If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the x is the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
+
+In addition to the above explanation: the `x` and `y` are one–to–one correspondence, or the global optimization existence, 
+
+There is another explanation:<br>
+The MLE may not be unbiased with finite data. However, the `MLE` is asymptotically unbiased when the amount of data grows. 
+
+No noise condition can be considered as collecting `infinite number of photons` in the field of optical imaging, which is equal to the infinite data, so the MLE is unbiased. In addition, the infinite number of photons will be corresponding to zero variance of estimation. That means the perfect estimation of `x`.
+
+This should be somehow corresponding to the widely accepted point in the field of `single molecule localization`. 
+
+## Prior knowledge
+
+## Summary and outlook 
