@@ -35,7 +35,7 @@ Lucy's RL article is the very first successful try on machine learning applying 
 
 What I intend to do in this section is to give a small insight that RL is a branch of classical machine learning.
 
-<h2 align="center">The history of RL is very interesting. In fact, for centuries, the Frequentism and the Bayesianism have been at odds, and that seems to echo the debate that we have today about the applications of the machine learning on the optical imaging (also in the fields of biology, physics, and chemistry).</h2>
+<h3 align="center">The history of RL is very interesting. In fact, for centuries, the Frequentism and the Bayesianism have been at odds, and that seems to echo the debate that we have today about the applications of the machine learning on the optical imaging (also in the fields of biology, physics, and chemistry).</h3>
 
 To summarize the differences: **Frequentism** considers probabilities to be related to frequencies of real or hypothetical events. **Bayesianism** considers probabilities to measure degrees of knowledge. **Frequentist** analyses generally proceed through use of point estimates and **maximum likelihood** approaches. 
 
