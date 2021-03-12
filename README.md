@@ -67,7 +67,9 @@ The `MLE` is asymptotically unbiased when the amount of data grows. No noise con
 
 This should be somehow corresponding to the widely accepted point in the field of `single molecule localization`. 
 
-Adapted from [James](https://github.com/jdmanton/rl_positivity_sim)'s simulation, we do the RL under noise-free condition for a better illustration. [HERE](https://github.com/WeisongZhao/rl_positivity_sim/blob/master/rl_positivity_sim.m) is the code to generate the following image.
+Adapted from [James](https://github.com/jdmanton/rl_positivity_sim)'s simulation, we do the RL under noise-free condition for a better illustration. 
+
+[HERE](https://github.com/WeisongZhao/rl_positivity_sim/blob/master/rl_positivity_sim.m) is the code to generate the following image.
 
 <p align="center">
 <img src='./rl_positivity_sim.png' width=600>
@@ -105,6 +107,10 @@ From the forward model of fluorescence imaging, a smaller PSF convolution corres
 The PSF of images must occupy more than `3 × 3 pixels` in space which constitutes the basis for the continuity. At least if the Nyquist sampling criteria of images is satisfied, then this prior is reasonable.
 
 Thus, `sparsity` recovers the high frequency information (towards to the real signal), and in the meantime the image is also constrained by the `Hessian matrix continuity`. As these priors on two different levels recovering the signal cooperatively, the proposed sparse deconvolution is more robust and effective.
+
+[HERE](https://www.researchsquare.com/article/rs-279271/v1) can find more details and results of the sparse deconvolution.
+
+SEE also my [website](https://weisongzhao.github.io/MyWeb2/portfolio-4-col.html).
 
 ## Summary and outlook 
 Admittedly, the reasonable usage of prior knowledge is a prerequisite for the method to really apply to the biological applications. Unreasonable parameters do lead to less-than-ideal results.
