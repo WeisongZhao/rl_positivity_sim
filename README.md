@@ -122,6 +122,7 @@ SEE also my [website](https://weisongzhao.github.io/MyWeb2/portfolio-4-col.html)
 ## Summary and outlook 
 Admittedly, the reasonable usage of prior knowledge is a prerequisite for the method to really apply to the biological applications. Unreasonable parameters do lead to less-than-ideal results.
 - For example, infinitely increasing the parameter of sparsity will turn the whole picture into zero. The loss function will be equal to the `L1 norm` only.
+- See also the following specific simulation example:
 
 <p align="center">
 <img src='./IMG/n2-100.png' width=600>
