@@ -18,12 +18,12 @@ First, I intend to talk about a little background of the `inverse problem` and `
 For me, the `deconvolution` is actually a `classical machine learning` method, rather than an `optical method`, that estimate the hidden parameter (real signal) from the measured parameter (camera image). 
 
 
-<h4 align="center"> Ax = y. It is an inverse problem if without noise.<br><br>Ax + n = y. It is an ill-posed inverse problem if with noise</h4>
+<h4 align="center"> Ax = y. It is an inverse problem if without noise.<br><br>Ax + n = y. It is an ill-posed inverse problem if with noise.</h4>
 
 
 What we're doing is trying to estimate the maximum possible `x` from the observed data `y`. If the `A` is a gaussian-function/point-source, and under **noise-free condition**, the `x` and `y` can be one–to–one correspondence.
 
-In the machine learning or convex optimization field, before establishing a model, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `x` for `Ax is absolutely equal to y`. 
+In the machine learning or convex optimization field, before establishing a model, we always start by asking ourselves, is this problem convex, or is there existing a global optimum. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `x` that `Ax is absolutely equal to y`. 
 
 There are many solutions, including the `Bayesian-based Richardson-Lucy deconvolution`, which will be discussed below. 
 
