@@ -39,7 +39,7 @@ What I intend to do in this section is to give a small insight that RL is a bran
 
 To summarize the differences: **Frequentism** considers probabilities to be related to frequencies of real or hypothetical events. **Bayesianism** considers probabilities to measure degrees of knowledge. **Frequentist** analyses generally proceed through use of point estimates and **maximum likelihood** approaches. 
 
-That talk about the RL to show that difference in specific.
+Let's talk about the RL to show that difference in specific.
 
 ### Derivation of RL from Bayesianism (one-dimension notation)
 
