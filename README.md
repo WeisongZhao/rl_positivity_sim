@@ -35,7 +35,7 @@ Lucy's RL article is the very first successful try on machine learning applying 
 
 What I intend to do in this section is to give a small insight that RL is a branch of classical machine learning.
 
-<h4 align="center">The history of RL is very interesting. In fact, for centuries, the Frequentism and the Bayesianism have been at odds, and that seems to echo the debate that we have today about the applications of the machine learning on the optical imaging (also in the fields of biology, physics, and chemistry).</h4>
+<h2 align="center">The history of RL is very interesting. In fact, for centuries, the Frequentism and the Bayesianism have been at odds, and that seems to echo the debate that we have today about the applications of the machine learning on the optical imaging (also in the fields of biology, physics, and chemistry).</h2>
 
 To summarize the differences: **Frequentism** considers probabilities to be related to frequencies of real or hypothetical events. **Bayesianism** considers probabilities to measure degrees of knowledge. **Frequentist** analyses generally proceed through use of point estimates and **maximum likelihood** approaches. 
 
@@ -122,6 +122,11 @@ SEE also my [website](https://weisongzhao.github.io/MyWeb2/portfolio-4-col.html)
 ## Summary and outlook 
 Admittedly, the reasonable usage of prior knowledge is a prerequisite for the method to really apply to the biological applications. Unreasonable parameters do lead to less-than-ideal results.
 - For example, infinitely increasing the parameter of sparsity will turn the whole picture into zero. The loss function will be equal to the `L1 norm` only.
+
+<p align="center">
+<img src='./IMG/n2-100.png' width=600>
+</p>
+> **Simulations under different SNR, and the corresponding reconstruction results.** (**a**) We created synthetic ring-shaped and punctated structures with an 80 nm diameter as ground-truth (left). It was convolved with PSF with FWHM of either 110 nm (middle) or 45 nm (right). (**b**) These images were subsequently subsampled 16 times (pixel sizes of 16 nm), and corrupted with Poisson noise and `2%, 5%, 10%, 20%, 50%, 80%, and 100%` Gaussian noise. (**c**) The images with different Gaussian noise amplitudes are processed with different weights of priors. (**d**) The 7 × 7 table of the reconstruction results. The column, and row represent the noise amplitude and weights of priors for reconstruction, respectively. 
 
 Although it still has its disadvantages (hard to use), I believe that [sparse deconvolution](https://www.researchsquare.com/article/rs-279271/v1) is currently the best and the most effective solution/method. Under a broader perspective, this is probably the TOP generative model in the field of unsupervised learning (including deep or non-deep models) for image restoration of fluorescence microscopy.
 
