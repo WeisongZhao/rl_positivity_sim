@@ -67,7 +67,7 @@ The `MLE` is asymptotically unbiased when the amount of data grows. No noise con
 
 This should be somehow corresponding to the widely accepted point in the field of `single molecule localization`. 
 
-Adapted from [James](https://github.com/jdmanton/rl_positivity_sim)'s simulation, we do the RL under noise-free condition for a better illustration.
+Adapted from [James](https://github.com/jdmanton/rl_positivity_sim)'s simulation, we do the RL under noise-free condition for a better illustration. [HERE](https://github.com/WeisongZhao/rl_positivity_sim/blob/master/rl_positivity_sim.m) is the code to generate the following image.
 
 <p align="center">
 <img src='./rl_positivity_sim.png' width=600>
