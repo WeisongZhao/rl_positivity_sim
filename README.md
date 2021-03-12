@@ -83,5 +83,24 @@ It is always a good way to add the corresponding prior knowledge to power the es
 
 Taken an example of single molecular localization microscopy (SMLM) can also be treated as a `deconvolution` method, but it utilizes the strongest prior knowledge on the real fluorescent signal `x`, i.e., the isolate puncta, to achieve super-resolution in 10~20 times. However, the usage of such prior knowledge needs the specific designed experiment, and can not be applied to the conventional microscopes.
 
+What we intend to do is to find the relatively weak but general (for fluorescence imaging) prior-knowledge, 
+
+- PSF is the important prior knowledge, the soul of `deconvolution`.
+- Low frequency background, corresponding to cytosol signal and constant background. This is an optional priori knowledge.
+
+Before moving on to our most important prior knowledge, I intend to say that in the field of machine learning, loss functions are the soul of the methods. This is also the basis for judging whether the prior knowledge is effective. Whether the desired effect [increased resolution in deconvolution] can reduce the loss function with prior knowledge added. If it does, it's effective for this objective
+
+- Sparsity, we used the `L1 norm` (the sum of the absolute values of all the elements).
+
+From the forward model of fluorescence imaging, a smaller PSF convolution corresponds to a smaller `L1 norm` loss function. At least if the forward model of fluorescence imaging is satisfied, then this prior is reasonable.
+
+- Continuity, we used the `Hessian matrix norm` (the sum of the absolute values of the second order derivative). The notation is `[1 -2 1]` as in `x` direction.
+
+The PSF of images must occupy more than 3 × 3 pixels in space which constitutes the basis for the continuity. At least if the Nyquist sampling criteria of images is satisfied, then this prior is reasonable.
+
+Thus, sparsity recovers the high frequency information (towards to the real signal), and in the meantime the image is also constrained by the Hessian matrix continuity. As these priors on two different levels recovering the signal cooperatively, the proposed sparse deconvolution is more robust and effective.
+
+
+
 
 ## Summary and outlook 
