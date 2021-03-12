@@ -73,7 +73,7 @@ Adapted from [James](https://github.com/jdmanton/rl_positivity_sim)'s simulation
 <img src='./rl_positivity_sim.png' width=600>
 </p>
 
-It is worth noticing that, the rates of convergence for the areas with and without background are different.
+It is worth noticing that, the rates of convergence for the areas with and without background are different. More iterations (now is 5k, may be 200k is sufficient) may lead to shorter distance to the ground-truth. In addition, current RL is a pratical form, e.g., using fast Fourier transform instead of convolution in space; replace near-zero value to a larger one; accelerated iteration.
 
 ## Prior knowledge
 
