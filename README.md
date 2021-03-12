@@ -73,4 +73,6 @@ Considering [James](https://github.com/jdmanton/rl_positivity_sim)'s discovery, 
 
 So it would be a good correction/prior-knowledge to add `b` to the model based on this definition.
 
+Of course, the real world is very complex, including Gaussian-Poisson noise, background noise, defocus signal, cytosol signal, and limited sampling (pixel-size).
+
 ## Summary and outlook 
