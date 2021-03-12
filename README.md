@@ -117,4 +117,4 @@ Unrestricted using and testing can certainly lead to strange results. But we wer
 [1] Lucy, L.. “An iterative technique for the rectification of observed distributions.” The Astronomical Journal 79 (1974): 745-754.<br>
 [2] Carasso, A.. “Linear and Nonlinear Image Deblurring: A Documented Study.” SIAM Journal on Numerical Analysis 36 (1999): 1659-1689.<br>
 [3] VanderPlas, Jake. "Frequentism and bayesianism: a python-driven primer." arXiv preprint arXiv:1411.5018 (2014).<br>
-[4] (Zhao, Weisong, et al. "Extending resolution of structured illumination microscopy with sparse deconvolution." (2021).)[https://www.researchsquare.com/article/rs-279271/v1]
+[4] [Zhao, Weisong, et al. "Extending resolution of structured illumination microscopy with sparse deconvolution." (2021).](https://www.researchsquare.com/article/rs-279271/v1)
