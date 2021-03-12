@@ -24,7 +24,7 @@ Lucy's RL article is the very first successful try on machine learning applying 
 
 What I intend to do in this section is to give a small insight that RL is a branch of classical machine learning.
 
-The history of RL is very interesting. In fact, for centuries, the **Frequentism** and the **Bayesianism** have been at odds, and that seems to echo the debate that we have today about the applications of the machine learning on the optical imaging.
+<h4 align="center">The history of RL is very interesting. In fact, for centuries, the Frequentism and the Bayesianism have been at odds, and that seems to echo the debate that we have today about the applications of the machine learning on the optical imaging.</h4>
 
 To summarize the differences: **Frequentism** considers probabilities to be related to frequencies of real or hypothetical events. **Bayesianism** considers probabilities to measure degrees of knowledge. **Frequentist** analyses generally proceed through use of point estimates and **maximum likelihood** approaches. 
 
@@ -46,7 +46,7 @@ The **Frequentism** and **Bayesianism** who were all the while "deadly rivals" c
 
 ## Perfect estimation under noise-free condition
 
-In the section of `Inverse problem` we used the view from the field of convex optimization.
+In the section of `Inverse problem` we used the perspective from the field of convex optimization.
 
 > What we're doing is trying to estimate the maximum possible `x` from the observed data `y`. If the `A` is a gaussian function, point source, and in noise-free condition, so the `x` and y are one–to–one correspondence.
 In the machine learning or convex optimization field, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `Ax` that is absolutely equal to `y`. 
