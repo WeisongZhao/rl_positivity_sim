@@ -5,7 +5,9 @@
 <p>
 <h2 align="center">A small blog about deconvolution and machine learning</h2>
 </p>  
-
+<h3 align="center">
+Please see the <a href="https://weisongzhao.github.io/rl_positivity_sim/">web version</a>
+</h3>
 
 Inspired by the idea of [Andrew](https://twitter.com/AndrewGYork) for the scientific discussions on GitHub, I post a GitHub page to have an open discussion on the deconvolution topic, all opinions are my own and may not be right.
 
