@@ -73,7 +73,7 @@ Adapted from [James](https://github.com/jdmanton/rl_positivity_sim)'s simulation
 <img src='./IMG/rl_positivity_sim.png' width=600>
 </p>
 
-It is worth noticing that, the rates of convergence for the areas with and without background 
+It is worth noticing that, the rates of convergence for the areas with and without background are different.
 
 ## Prior knowledge
 
