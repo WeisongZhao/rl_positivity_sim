@@ -20,7 +20,7 @@ To me, the `deconvolution` is actually a `classical machine learning` method but
 
 What we're doing is trying to estimate the maximum possible `x` from the observed data `y`. If the `A` is a gaussian-function/point-source, and under **noise-free condition**, the `x` and `y` can be one–to–one correspondence.
 
-In the machine learning or convex optimization field, before establishing a model, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `Ax` that is absolutely equal to `y`. 
+In the machine learning or convex optimization field, before establishing a model, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `x` for `Ax` is absolutely equal to `y`. 
 
 There are many solutions, including the `Bayesian-based Richardson-Lucy deconvolution`, which will be discussed below. 
 
@@ -56,9 +56,7 @@ The **Frequentism** and **Bayesianism** who were all the while "deadly rivals" c
 
 In the section of `Inverse problem` we used the perspective from the field of convex optimization.
 
-> What we're doing is trying to estimate the maximum possible `x` from the observed data `y`. If the `A` is a gaussian function, point source, and in noise-free condition, so the `x` and y are one–to–one correspondence.
-In the machine learning or convex optimization field, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `Ax` that is absolutely equal to `y`. 
-There are many solutions, including the Bayesian-based Richardson-Lucy deconvolution, which will be discussed below. If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the `x` is the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
+> What we're doing is trying to estimate the maximum possible `x` from the observed data `y`. If the `A` is a gaussian-function/point-source, and under **noise-free condition**, the `x` and `y` can be one–to–one correspondence. In the machine learning or convex optimization field, before establishing a model, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `x` for `Ax` is absolutely equal to `y`. There are many solutions, including the `Bayesian-based Richardson-Lucy deconvolution`, which will be discussed below. If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the `x` as the parameters to be optimized by GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
 
 In addition to the above explanation: the `x` and `y` are one–to–one correspondence, or the global optimization existence.
 
