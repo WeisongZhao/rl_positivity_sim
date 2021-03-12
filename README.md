@@ -15,7 +15,7 @@ Please just leave a message on [Twitter](https://twitter.com/weisong_zhao/status
 
 First, I intend to talk about a little background of the `inverse problem` and `deconvolution`.
 
-To me, the `deconvolution` is actually a `classical machine learning` method but not an `optical method`, that estimate the hidden parameter (real signal) from the measured parameter (camera image). 
+For me, the `deconvolution` is actually a `classical machine learning` method, rather than an `optical method`, that estimate the hidden parameter (real signal) from the measured parameter (camera image). 
 
 
 <h4 align="center"> Ax = y. It is an inverse problem if without noise.<br><br>Ax + n = y. It is an ill-posed inverse problem if with noise</h4>
