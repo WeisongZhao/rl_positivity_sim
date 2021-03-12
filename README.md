@@ -24,7 +24,7 @@ In the machine learning or convex optimization field, before establishing a mode
 
 There are many solutions, including the `Bayesian-based Richardson-Lucy deconvolution`, which will be discussed below. 
 
-If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the x is the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
+If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the `x` as the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
 
 ## Frequentism and Bayesianism for the Richardson-Lucy (RL) deconvolution
 
