@@ -83,7 +83,7 @@ It is always a good way to add the corresponding prior knowledge to power the es
 
 Taken an example of single molecular localization microscopy (SMLM) can also be treated as a `deconvolution` method, but it utilizes the strongest prior knowledge on the real fluorescent signal `x`, i.e., the isolate puncta, to achieve super-resolution in 10~20 times. However, the usage of such prior knowledge needs the specific designed experiment, and can not be applied to the conventional microscopes.
 
-What we intend to do is to find the relatively weak but general (for fluorescence imaging) prior-knowledge, 
+What we intend to do is to find the relatively weak but general (for fluorescence imaging) prior-knowledge in the [manuscript](https://www.researchsquare.com/article/rs-279271/v1), 
 
 - PSF is the important prior knowledge, the soul of `deconvolution`.
 - Low frequency background, corresponding to cytosol signal and constant background. This is an optional priori knowledge.
@@ -96,11 +96,16 @@ From the forward model of fluorescence imaging, a smaller PSF convolution corres
 
 - Continuity, we used the `Hessian matrix norm` (the sum of the absolute values of the second order derivative). The notation is `[1 -2 1]` as in `x` direction.
 
-The PSF of images must occupy more than 3 × 3 pixels in space which constitutes the basis for the continuity. At least if the Nyquist sampling criteria of images is satisfied, then this prior is reasonable.
+The PSF of images must occupy more than `3 × 3 pixels` in space which constitutes the basis for the continuity. At least if the Nyquist sampling criteria of images is satisfied, then this prior is reasonable.
 
-Thus, sparsity recovers the high frequency information (towards to the real signal), and in the meantime the image is also constrained by the Hessian matrix continuity. As these priors on two different levels recovering the signal cooperatively, the proposed sparse deconvolution is more robust and effective.
-
-
-
+Thus, `sparsity` recovers the high frequency information (towards to the real signal), and in the meantime the image is also constrained by the `Hessian matrix continuity`. As these priors on two different levels recovering the signal cooperatively, the proposed sparse deconvolution is more robust and effective.
 
 ## Summary and outlook 
+Admittedly, the reasonable using of prior knowledge is a prerequisite for the method to really apply to the biological applications. Unreasonable parameters do lead to less-than-ideal results.
+- For example, infinitely increasing the parameter of sparsity will turn the whole picture into zero. The loss function will be equal to the `L1 norm`.
+
+Although it still has its disadvantages (hard to use), I believe that [sparse deconvolution](https://www.researchsquare.com/article/rs-279271/v1) is currently the best and the most effective solution/method. Under a broader perspective, this is probably the best generative model for the field of unsupervised learning (including deep or non-deep models).
+
+All technologies have its boundary, and they are not suitable for using proof by contradiction. The successful example is the success, the unsuccessful example only illustrates the boundary of the technology. Just as all microscopes are suitable for imaging only a certain range of samples.
+
+Unrestricted using and testing can certainly lead to strange results. But we were eager for the community to test it extensively, and exploring the boundaries of the method gave us and the other developers the opportunity to push the algorithm further.
