@@ -31,7 +31,7 @@ If the computing power is sufficient, even **particle swarm (PSO)** or **genetic
 
 ## Frequentism and Bayesianism for the Richardson-Lucy (RL) deconvolution
 
-Lucy's RL article is the very first successful try on `applying machine learning to the optical imaging. However, the logic used in the Lucy's article is very flexible, so it can be a little misleading in some cases. 
+Lucy's RL article is the very first successful try on `applying machine learning to the optical imaging`. However, the logic used in the Lucy's article is very flexible, so it can be a little misleading in some cases. 
 
 What I intend to do in this section is to give a small insight that RL is a branch of classical machine learning.
 
