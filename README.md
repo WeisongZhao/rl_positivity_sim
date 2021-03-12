@@ -22,7 +22,9 @@ What we're doing is trying to estimate the maximum possible `x` from the observe
 
 In the machine learning or convex optimization field, before establishing a model, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `Ax` that is absolutely equal to `y`. 
 
-There are many solutions, including the Bayesian-based Richardson-Lucy deconvolution, which will be discussed below. If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the x is the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
+There are many solutions, including the `Bayesian-based Richardson-Lucy deconvolution`, which will be discussed below. 
+
+If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the x is the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
 
 ## Frequentism and Bayesianism for the Richardson-Lucy (RL) deconvolution
 
