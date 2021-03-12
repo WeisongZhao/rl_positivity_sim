@@ -75,4 +75,9 @@ So it would be a good correction/prior-knowledge to add `b` to the model based o
 
 Of course, the real world is very complex, including Gaussian-Poisson noise, background noise, defocus signal, cytosol signal, and limited sampling (pixel-size).
 
+It is always a good way to add the corresponding prior knowledge to power the estimation. This word may be not restricting to deconvolution but all the algorithms.
+
+Taken an example of single molecular localization microscopy (SMLM) can also be treated as a `deconvolution` method, but it utilizes the strongest prior knowledge on the real fluorescent signal `x`, i.e., the isolate puncta, to achieve super-resolution in 10~20 times. However, the usage of such prior knowledge needs the specific designed experiment, and can not be applied to the conventional microscopes.
+
+
 ## Summary and outlook 
