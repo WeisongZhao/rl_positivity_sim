@@ -70,7 +70,7 @@ This should be somehow corresponding to the widely accepted point in the field o
 Adapted from [James](https://github.com/jdmanton/rl_positivity_sim)'s simulation, we do the RL under noise-free condition for a better illustration.
 
 <p align="center">
-<img src='./IMG/rl_positivity_sim.png' width=600>
+<img src='./rl_positivity_sim.png' width=600>
 </p>
 
 It is worth noticing that, the rates of convergence for the areas with and without background are different.
