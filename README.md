@@ -12,15 +12,15 @@ Please just leave a message on [Twitter](https://twitter.com/weisong_zhao)/[GitH
 
 First, I intend to talk about a little background of the `inverse problem` and `deconvolution`.
 
-To me, the `deconvolution` is actually a `classical machine learning` method but not an `optics method`, that estimate the hidden parameter (real signal) from the measured parameter (camera image). 
+To me, the `deconvolution` is actually a `classical machine learning` method but not an `optical method`, that estimate the hidden parameter (real signal) from the measured parameter (camera image). 
 
 
 <h4 align="center"> Ax = y. It is an inverse problem if without noise.<br><br>Ax + n = y. It is an ill-posed inverse problem if with noise</h4>
 
 
-What we're doing is trying to estimate the maximum possible `x` from the observed data `y`. If the `A` is a gaussian function, point source, and in noise-free condition, so the `x` and y are one–to–one correspondence.
+What we're doing is trying to estimate the maximum possible `x` from the observed data `y`. If the `A` is a gaussian-function/point-source, and under **noise-free condition**, the `x` and `y` can be one–to–one correspondence.
 
-In the machine learning or convex optimization field, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `Ax` that is absolutely equal to `y`. 
+In the machine learning or convex optimization field, before establishing a model, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `Ax` that is absolutely equal to `y`. 
 
 There are many solutions, including the Bayesian-based Richardson-Lucy deconvolution, which will be discussed below. If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the x is the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
 
