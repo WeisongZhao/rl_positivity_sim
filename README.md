@@ -50,7 +50,7 @@ In the section of `Inverse problem` we used the perspective from the field of co
 
 > What we're doing is trying to estimate the maximum possible `x` from the observed data `y`. If the `A` is a gaussian function, point source, and in noise-free condition, so the `x` and y are one–to–one correspondence.
 In the machine learning or convex optimization field, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `Ax` that is absolutely equal to `y`. 
-There are many solutions, including the Bayesian-based Richardson-Lucy deconvolution, which will be discussed below. If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the x is the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
+There are many solutions, including the Bayesian-based Richardson-Lucy deconvolution, which will be discussed below. If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the `x` is the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
 
 In addition to the above explanation: the `x` and `y` are one–to–one correspondence, or the global optimization existence, 
 
@@ -61,6 +61,14 @@ No noise condition can be considered as collecting `infinite number of photons` 
 
 This should be somehow corresponding to the widely accepted point in the field of `single molecule localization`. 
 
+> The simulation examples/codes are coming soon...
+
 ## Prior knowledge
+
+From a **Bayesian perspective**, introducing additional reasonable prior knowledge will make the estimation for small data (small photon number, small OTF support) more effective.
+
+Considering James' discovery, if corresponding to MLE, RL only considers Poisson noise, while Poisson noise does not contain background. So, the RL model seems to be deviating from the range of application (the image with background).
+
+So it would be a good correction/prior-knowledge to add `b` to the model based on this definition.
 
 ## Summary and outlook 
