@@ -24,7 +24,7 @@ In the machine learning or convex optimization field, before establishing a mode
 
 There are many solutions, including the `Bayesian-based Richardson-Lucy deconvolution`, which will be discussed below. 
 
-If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the `x` as the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
+If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the `x` as the parameters to be optimized by GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
 
 ## Frequentism and Bayesianism for the Richardson-Lucy (RL) deconvolution
 
@@ -111,3 +111,10 @@ Although it still has its disadvantages (hard to use), I believe that [sparse de
 All technologies have its boundary, and they are not suitable for using proof by contradiction. The successful example is the success, the unsuccessful example only illustrates the boundary of the technology. Just as all microscopes are suitable for imaging only a certain range of samples.
 
 Unrestricted using and testing can certainly lead to strange results. But we were eager for the community to test it extensively, and exploring the boundaries of the method gave us and the other developers the opportunity to push the algorithm further.
+
+
+## REFERENCES
+[1] Lucy, L.. “An iterative technique for the rectification of observed distributions.” The Astronomical Journal 79 (1974): 745-754.
+[2] Carasso, A.. “Linear and Nonlinear Image Deblurring: A Documented Study.” SIAM Journal on Numerical Analysis 36 (1999): 1659-1689.
+[3] VanderPlas, Jake. "Frequentism and bayesianism: a python-driven primer." arXiv preprint arXiv:1411.5018 (2014).
+[4] (Zhao, Weisong, et al. "Extending resolution of structured illumination microscopy with sparse deconvolution." (2021).)[https://www.researchsquare.com/article/rs-279271/v1]
