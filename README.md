@@ -121,7 +121,7 @@ SEE also my [website](https://weisongzhao.github.io/MyWeb2/portfolio-4-col.html)
 
 ## Summary and outlook 
 Admittedly, the reasonable usage of prior knowledge is a prerequisite for the method to really apply to the biological applications. Unreasonable parameters do lead to less-than-ideal results.
-- For example, infinitely increasing the parameter of sparsity will turn the whole picture into zero. The loss function will be equal to the `L1 norm`.
+- For example, infinitely increasing the parameter of sparsity will turn the whole picture into zero. The loss function will be equal to the `L1 norm` only.
 
 Although it still has its disadvantages (hard to use), I believe that [sparse deconvolution](https://www.researchsquare.com/article/rs-279271/v1) is currently the best and the most effective solution/method. Under a broader perspective, this is probably the TOP generative model in the field of unsupervised learning (including deep or non-deep models) for image restoration of fluorescence microscopy.
 
