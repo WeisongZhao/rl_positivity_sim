@@ -1,4 +1,4 @@
-Inspired by great idea of [Andrew](https://twitter.com/AndrewGYork), I open a GitHub page to have an open discussion on the deconvolution topic, all opinions are my own and may not be right.
+Inspired by great idea of [Andrew](https://twitter.com/AndrewGYork), I post a GitHub page to have an open discussion on the deconvolution topic, all opinions are my own and may not be right.
 
 Please just leave a message on [Twitter](https://twitter.com/weisong_zhao)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new) if you are interested. 
 
@@ -33,13 +33,13 @@ That talk about the RL to show that difference in specific.
 ### Derivation of RL from Bayesianism (one-dimension notation)
 
 <p align="center">
-<img src='./IMG/RL-Bayesian.png' width=550>
+<img src='./IMG/RL-Bayesian.png' width=600>
 </p>
 
 ### Derivation of RL from Frequentism (one-dimension notation)
 
 <p align="center">
-<img src='./IMG/RL-Frequentism.png' width=550>
+<img src='./IMG/RL-Frequentism.png' width=600>
 </p>
 
 The **Frequentism** and **Bayesianism** who were all the while "deadly rivals" came together completely at this moment.
@@ -49,9 +49,7 @@ The **Frequentism** and **Bayesianism** who were all the while "deadly rivals" c
 In the section of `Inverse problem` we used the view from the field of convex optimization.
 
 > What we're doing is trying to estimate the maximum possible `x` from the observed data `y`. If the `A` is a gaussian function, point source, and in noise-free condition, so the `x` and y are one–to–one correspondence.
-
 In the machine learning or convex optimization field, we always start by asking ourselves, is this problem convex, is there a global optimal value. If there is no noise, then the `x` and `y` can be **one–to–one correspondence**. No matter what method we use, we just need to find `Ax` that is absolutely equal to `y`. 
-
 There are many solutions, including the Bayesian-based Richardson-Lucy deconvolution, which will be discussed below. If the computing power is sufficient, even **particle swarm (PSO)** or **genetic algorithm (GA)** are effective choices. We can define the x is the parameters to be optimized for GA/PSO, and the optimization will stop when find `x` for `Ax – y = 0`.
 
 In addition to the above explanation: the `x` and `y` are one–to–one correspondence, or the global optimization existence, 
