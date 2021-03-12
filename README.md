@@ -1,4 +1,4 @@
-[![website](https://img.shields.io/badge/website-up-green.svg)](https://weisongzhao.github.io/rl_positivity_sim/)
+[![website](https://img.shields.io/badge/website-up-red.svg)](https://weisongzhao.github.io/rl_positivity_sim/)
 [![Github commit](https://img.shields.io/github/last-commit/WeisongZhao/rl_positivity_sim)](https://github.com/WeisongZhao/rl_positivity_sim/)
 [![paper](https://img.shields.io/badge/paper-In%20Review-black.svg)](https://www.researchsquare.com/article/rs-279271/v1/)<br>
 
