@@ -126,6 +126,7 @@ Admittedly, the reasonable usage of prior knowledge is a prerequisite for the me
 <p align="center">
 <img src='./IMG/n2-100.png' width=600>
 </p>
+
 > **Simulations under different SNR, and the corresponding reconstruction results.** (**a**) We created synthetic ring-shaped and punctated structures with an 80 nm diameter as ground-truth (left). It was convolved with PSF with FWHM of either 110 nm (middle) or 45 nm (right). (**b**) These images were subsequently subsampled 16 times (pixel sizes of 16 nm), and corrupted with Poisson noise and `2%, 5%, 10%, 20%, 50%, 80%, and 100%` Gaussian noise. (**c**) The images with different Gaussian noise amplitudes are processed with different weights of priors. (**d**) The 7 × 7 table of the reconstruction results. The column, and row represent the noise amplitude and weights of priors for reconstruction, respectively. 
 
 Although it still has its disadvantages (hard to use), I believe that [sparse deconvolution](https://www.researchsquare.com/article/rs-279271/v1) is currently the best and the most effective solution/method. Under a broader perspective, this is probably the TOP generative model in the field of unsupervised learning (including deep or non-deep models) for image restoration of fluorescence microscopy.
