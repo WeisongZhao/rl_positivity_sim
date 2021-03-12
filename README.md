@@ -143,4 +143,5 @@ The unrestricted using and testing can lead to the strange results. But we were 
 [3] VanderPlas, Jake. "Frequentism and bayesianism: a python-driven primer." arXiv preprint arXiv:1411.5018 (2014).<br>
 [4] [Zhao, Weisong, et al. "Extending resolution of structured illumination microscopy with sparse deconvolution." (2021).](https://www.researchsquare.com/article/rs-279271/v1)
 
+I agree with that it would be a little hard to understand if start with the SIM system. I think that start with the conventional wide-field microscopy could be easier?
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I agree with that it would be a little hard to understand if start with the SIM system. I think that start with the conventional wide-field microscopy could be easier? <br>[1/n]</p>&mdash; Weisong Zhao (@weisong_zhao) <a href="https://twitter.com/weisong_zhao/status/1370407748597256197?ref_src=twsrc%5Etfw">March 12, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
