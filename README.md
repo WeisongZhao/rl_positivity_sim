@@ -73,7 +73,7 @@ This should be somehow corresponding to the widely accepted point in the field o
 
 From a **Bayesian perspective**, introducing additional reasonable prior knowledge will make the estimation for small data (small photon number, small OTF support) more effective.
 
-Considering [James](https://github.com/jdmanton/rl_positivity_sim)'s discovery, if corresponding to MLE, RL only considers Poisson noise, while Poisson noise does not contain background. So, the RL model seems to be deviating from the range of application (the image with background).
+Considering the image contained background noise, like the configurations in [James](https://github.com/jdmanton/rl_positivity_sim)'s code, if corresponding to MLE, RL only considers Poisson noise, while Poisson noise does not contain background. So, the RL model seems to be deviating from the range of application (the image with background). 
 
 So it would be a good correction/prior-knowledge to add `b` to the model based on this definition.
 
