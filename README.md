@@ -1,6 +1,6 @@
 
 <p>
-<h1 align="center">A small blog about deconvolution and machine learning</h1>
+<h2 align="center">A small blog about deconvolution and machine learning</h2>
 </p>  
 
 
