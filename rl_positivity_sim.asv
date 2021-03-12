@@ -7,7 +7,7 @@
 %% Simulation parameters
 mid_bg = 0.05;
 right_bg = 0.25;
-sigma = 5;
+sigma = 6;
 iteration = 5000;
 n = 512;
 spacing_px = 4;
