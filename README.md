@@ -161,6 +161,12 @@ FROM <a href="https://twitter.com/DougPShepherd">Doug Shepherd</a>.
 
 Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and feed-forward deep learning approaches for inverse problems typically focus on recovering a point estimate without quantifying the uncertainty.<br><br>
 
+The <b>photon number (SNR), sampling size (pixel size), and the OTF size (resolution)</b> will be related to the uncertainty. <br><br>
+
+As in the field of <b>single molecule localization</b>, the Cram´er Rao Lower Bound (CRLB) is derived to represent the limiting lower bound of the variance for any unbiased parameter estimator. More photon number, smaller sampling size, and larger OTF, will lead to smaller uncertainty.<br><br>
+
+The <b>single molecule localization</b> is actually the simplest situation, and We have already assumed that the estimator is unbiased, which means the model error will be limited to assess (but the model we established will never be unbiased). If coming to real deconvolution, I thought it will be incredible complicated. <br><br>
+
 The uncertainty assessment is actually an open question, and I thought that there exists no golden-standard/solution for all cases.<br><br>
 
 In a Bayesian framework, this problem could be addressed by accurately modeling the measurement noise, formulating an estimation problem, and computing the posterior distribution of the hidden image. However, this analytical approach is only tractable in simple cases. When the inverse problem is non-convex, <b>in high-dimension</b> or the measurement noise is complicated (e.g., non-Gaussian) the posterior distribution can quickly become intractable to compute analytically.<br><br>
@@ -172,9 +178,7 @@ But I thought this checklist may be not so suitable for the problem in image res
 On the other hand, the <b>Bayesian neural networks</b> is popular recently and may be a good choice (the concept) to quantify uncertainty. In addition <b>Bayesian neural networks</b> also splits the uncertainty to the <b>model uncertainty</b> and <b>data uncertainty</b>.<br><br>
 
 The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher. By now, the <a href="https://www.researchsquare.com/article/rs-279271/v1">sparse deconvolution</a> still depends on the "human-eye checklisk" and I wish that I and my colleagues, and other developers could somehow moderate this imperfection in the future.<br><br>
-
-The <b>photon number (SNR), sampling size (pixel size), and the OTF size (resolution)</b> will be related to the uncertainty. More photon number, smaller sampling size, and larger OTF, will lead to smaller uncertainty.
-
+ 
 </p>
 
 ## Statement 
