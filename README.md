@@ -147,10 +147,10 @@ The unrestricted using and testing can lead to the strange results. But we were 
 
 ## Outreach and feedback
 
-<h4 align="center">
+<h4  id="Doug" align="center">
 FROM <a href="https://twitter.com/DougPShepherd">Doug Shepherd</a>.
 </h4>
-<p id="Doug">
+<p>
 As point out by <a href="https://twitter.com/DougPShepherd">Doug</a>
 <blockquote>The ad hoc choice of parameters is part of what I am confused on. A correct Bayesian treatment would provide error bars and allow you to address the model selection problem that you are side-stepping.</blockquote>
 
