@@ -162,12 +162,12 @@ Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and f
 The uncertainty estimation is actually an open question, and I thought that there exists no golden standard for all cases.<br><br>
 
 In a Bayesian framework, this problem could be addressed by accurately modeling the measurement noise, formulating an estimation problem, and computing the posterior distribution of the hidden image. However, this analytical approach is only tractable in simple cases. When the inverse problem is non-convex, <b>in high-dimension</b> or the measurement noise is complicated (e.g., non-Gaussian) the posterior distribution can quickly become intractable to compute analytically.<br><br>
-Like in this <a href="https://www.nature.com/articles/s43586-020-00001-2">review</a> <b>Bayesian statistics and modelling</b> they propose a new cheklist <b>WAMBS-v2</b> to correct the model back and forth:<br>
+Additionally, in this <a href="https://www.nature.com/articles/s43586-020-00001-2">review</a> <b>Bayesian statistics and modelling</b> they propose a new cheklist <b>WAMBS-v2</b> to correct the model back and forth:<br>
 <blockquote> WAMBS-v2, an updated version of the WAMBS (when to Worry and how to Avoid the Misuse of Bayesian Statistics) checklist.</blockquote>
 
 But I thought this checklist may be not so suitable for the problem in image restoration.<br>
 
-On the other hand, the <b>Bayesian neural networks</b> is popular recently and may be a good choice (the concept) to quantify uncertainty, <b>Bayesian neural networks</b> also splits the uncertainty to the <b>model uncertainty</b> and <b>data uncertainty</b>.<br><br>
+On the other hand, the <b>Bayesian neural networks</b> is popular recently and may be a good choice (the concept) to quantify uncertainty. In addition <b>Bayesian neural networks</b> also splits the uncertainty to the <b>model uncertainty</b> and <b>data uncertainty</b>.<br><br>
 
 The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher. By now, the <a href="https://www.researchsquare.com/article/rs-279271/v1">sparse deconvolution</a> still depends on the "human-eye checklisk" and I wish that I and my colleagues, and other developers could somehow moderate this problem in the future.<br>
 </p>
