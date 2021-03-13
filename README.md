@@ -152,7 +152,7 @@ FROM <a href="https://twitter.com/DougPShepherd">Doug Shepherd</a>.
 </h4>
 <p id="Doug">
 As point out by <a href="https://twitter.com/DougPShepherd">Doug</a>
-<blockquote>The ad hoc choice of parameters is part of what I am confused on. A correct Bayesian treatment would provide error bars and allow you to address the model selection problem that you are side-stepping.</blockquote><br>
+<blockquote>The ad hoc choice of parameters is part of what I am confused on. A correct Bayesian treatment would provide error bars and allow you to address the model selection problem that you are side-stepping.</blockquote>
 
 Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and feed-forward deep learning approaches for inverse problems typically focus on recovering a point estimate without quantifying the uncertainty.<br>
 
@@ -161,7 +161,7 @@ The uncertainty estimation is actually an open question, and I thought that ther
 In a Bayesian framework, this problem could be addressed by accurately modeling the measurement noise, formulating an estimation problem, and computing the posterior distribution of the hidden image. However, this analytical approach is only tractable in simple cases. When the inverse problem is non-convex, **in high-dimension** or the measurement noise is complicated (e.g., non-Gaussian) the posterior distribution can quickly become intractable to compute analytically.<br>
 
 Like in this <a href="https://www.nature.com/articles/s43586-020-00001-2">review</a> <b>Bayesian statistics and modelling</b> they propose a new cheklist `WAMBS-v2` to correct the model back and forth:<br>
-<blockquote> WAMBS-v2, an updated version of the WAMBS (when to Worry and how to Avoid the Misuse of Bayesian Statistics) checklist.</blockquote><br>
+<blockquote> WAMBS-v2, an updated version of the WAMBS (when to Worry and how to Avoid the Misuse of Bayesian Statistics) checklist.</blockquote>
 
 But I thought this checklist may be not so suitable for the problem in image restoration.<br>
 
