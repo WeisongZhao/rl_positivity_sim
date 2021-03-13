@@ -3,7 +3,7 @@
 [![paper](https://img.shields.io/badge/manuscript-in%20review-gray.svg)](https://www.researchsquare.com/article/rs-279271/v1/)
 [![Twitter](https://img.shields.io/badge/host-GitHub-black.svg)](https://github.com/WeisongZhao/rl_positivity_sim/)
 <br>
-[![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=Follow&style=social)](https://twitter.com/weisong_zhao/status/1370308101690118146)
+[![Twitter](https://img.shields.io/twitter/followed%20by/weisong_zhao?label=Follow&style=social)](https://twitter.com/weisong_zhao/status/1370308101690118146)
 [![Twitter](https://img.shields.io/twitter/follow/DougPShepherd?label=From%20Doug&style=social)](https://weisongzhao.github.io/rl_positivity_sim#Doug)<br>
 
 <p>
