@@ -140,6 +140,9 @@ All technologies have its boundaries, and using `proof by contradiction` to eval
 The unrestricted using and testing can lead to the strange results. But we were eager for the community to test it extensively, and exploring the boundaries of this method which will also give us or other developers the opportunity to push the algorithm limit further.
 
 
+## Statement 
+All opinions are just my own and some content of this blog could be wrong or biased. If someone has a better explanation about this topic #deconvolution, please do let me know using [Twitter](https://twitter.com/weisong_zhao/status/1370308101690118146)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new).
+
 ## REFERENCES
 [1] Lucy, L.. “An iterative technique for the rectification of observed distributions.” The Astronomical Journal 79 (1974): 745-754.<br>
 [2] Carasso, A.. “Linear and Nonlinear Image Deblurring: A Documented Study.” SIAM Journal on Numerical Analysis 36 (1999): 1659-1689.<br>
