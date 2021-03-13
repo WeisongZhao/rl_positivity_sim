@@ -170,10 +170,10 @@ The <b>single molecule localization</b> is actually the simplest situation, and 
 The uncertainty assessment is actually an open question, and I thought that there exists no golden-standard/solution for all cases.<br><br>
 
 In a Bayesian framework, this problem could be addressed by accurately modeling the measurement noise, formulating an estimation problem, and computing the posterior distribution of the hidden image. However, this analytical approach is only tractable in simple cases. When the inverse problem is non-convex, <b>in high-dimension</b> or the measurement noise is complicated (e.g., non-Gaussian) the posterior distribution can quickly become intractable to compute analytically.<br><br>
-Additionally, in this <a href="https://www.nature.com/articles/s43586-020-00001-2">review</a> <b>Bayesian statistics and modelling</b> they propose a new cheklist <b>WAMBS-v2</b> to correct the model back and forth:<br>
-<blockquote> WAMBS-v2, an updated version of the WAMBS (when to Worry and how to Avoid the Misuse of Bayesian Statistics) checklist.</blockquote>
+Additionally, in this <a href="https://www.nature.com/articles/s43586-020-00001-2">review</a> <b>Bayesian statistics and modelling</b> they propose a new cheklist <b>WAMBS-v2</b> to correct the model back and forth:<br><br>
+<blockquote> WAMBS-v2, an updated version of the WAMBS (when to Worry and how to Avoid the Misuse of Bayesian Statistics) checklist.</blockquote><br><br>
 
-But I thought this checklist may be not so suitable for the problem in image restoration.<br>
+But I thought this checklist may be not so suitable for the problem in image restoration.<br><br>
 
 On the other hand, the <b>Bayesian neural networks</b> is popular recently and may be a good choice (the concept) to quantify uncertainty. In addition <b>Bayesian neural networks</b> also splits the uncertainty to the <b>model uncertainty</b> and <b>data uncertainty</b>.<br><br>
 
