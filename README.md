@@ -3,10 +3,8 @@
 [![paper](https://img.shields.io/badge/manuscript-in%20review-gray.svg)](https://www.researchsquare.com/article/rs-279271/v1/)
 [![Twitter](https://img.shields.io/badge/host-GitHub-black.svg)](https://github.com/WeisongZhao/rl_positivity_sim/)
 <br>
-[![Twitter](https://img.shields.io/badge/Twitter-Doug%20Shepherd-blue.svg)](https://weisongzhao.github.io/rl_positivity_sim#Doug)<br>
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fweisong_zhao%2Fstatus%2F1370308101690118146)](https://twitter.com/weisong_zhao/status/1370308101690118146)
-[![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?style=social)](https://twitter.com/weisong_zhao)
-
+[![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=Follow&style=social)](https://twitter.com/weisong_zhao/status/1370308101690118146)
+[![Twitter](https://img.shields.io/twitter/follow/DougPShepherd?label=From%20Doug&style=social)](https://weisongzhao.github.io/rl_positivity_sim#Doug)<br>
 
 <p>
 <h2 align="center">A small blog about deconvolution and machine learning</h2>
