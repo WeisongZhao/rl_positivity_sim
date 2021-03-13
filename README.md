@@ -101,7 +101,7 @@ The regularization function is necessary for obtaining a unique solution in unde
 
 <h4 align="center">argmin{L(x, y) + &lambda;R(x)},</h4>
 
-where `x` is the reconstructed image, L(·,·) is the data fitting loss between the measured data and the forward model pre\diction, R(·) is a regularization function on the image, and λ is the hyper-parameter balancing the data fitting loss and the regularization term.
+where `x` is the reconstructed image, `L(·,·)` is the data fitting loss between the measured data and the forward model prediction, `R(·)` is a regularization function on the image, and `λ` is the hyper-parameter balancing the data fitting loss and the regularization term.
 
 It is always a good way to add the corresponding prior knowledge to power the estimation. This word may be not restricting to deconvolution but all the algorithms.
 
