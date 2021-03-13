@@ -95,7 +95,11 @@ Considering the image contained background noise, like the configurations in [Ja
 
 So it would be a good correction/prior-knowledge to add `b` to the model based on this definition.
 
-Of course, the real world is very complex, including Gaussian-Poisson noise, background noise, defocus signal, cytosol signal, and limited sampling (pixel-size).
+Of course, it is extremely complex in real world, including Gaussian-Poisson noise, background noise, defocus signal, cytosol signal, and limited sampling (pixel-size).
+
+The regularization function is necessary for obtaining a unique solution in under-constrained systems.
+
+<h4 align="center">argmin{L(x, y) + \lambda R(x)}</h4>
 
 It is always a good way to add the corresponding prior knowledge to power the estimation. This word may be not restricting to deconvolution but all the algorithms.
 
@@ -139,6 +143,10 @@ All technologies have its boundaries, and using `proof by contradiction` to eval
 
 The unrestricted using and testing can lead to the strange results. But we were eager for the community to test it extensively, and exploring the boundaries of this method which will also give us or other developers the opportunity to push the algorithm limit further.
 
+## Outreach
+As point out by [Doug](https://twitter.com/DougPShepherd)
+> The ad hoc choice of parameters is part of what I am confused on. A correct Bayesian treatment would provide error bars and allow you to address the model selection problem that you are side-stepping.
+Though it may be a bit off-topic, it is true that 
 
 ## Statement 
 All opinions are just my own and some content of this blog could be wrong or biased. If someone has a better explanation about this topic #deconvolution, please do let me know using [Twitter](https://twitter.com/weisong_zhao/status/1370308101690118146)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new).
