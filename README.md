@@ -154,12 +154,20 @@ FROM <a href="https://twitter.com/DougPShepherd">Doug Shepherd</a>.
 As point out by [Doug](https://twitter.com/DougPShepherd)
 > The ad hoc choice of parameters is part of what I am confused on. A correct Bayesian treatment would provide error bars and allow you to address the model selection problem that you are side-stepping.
 
-Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and feed-forward deep learning approaches for inverse problems typically focus on recovering a point estimate without estimating the uncertainty.
+Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and feed-forward deep learning approaches for inverse problems typically focus on recovering a point estimate without quantifying the uncertainty.
 
-In a Bayesian framework, this problem could ideally be addressed by accurately modeling the measurement noise, formulating an estimation problem, and computing the posterior distribution of the hidden image. However, this analytical approach is only tractable in simple cases. When the inverse problem is non-convex, **in high-dimension** or the measurement noise is complicated (e.g., non-Gaussian) the posterior distribution can quickly become intractable to compute analytically.
+The uncertainty estimation is actually an open question, and I thought that there exists no golden standard for all cases.
 
-In this [review](https://www.nature.com/articles/s43586-020-00001-2) `Bayesian statistics and modelling` they propose a new cheklist to correct the model back and forth:
+In a Bayesian framework, this problem could be addressed by accurately modeling the measurement noise, formulating an estimation problem, and computing the posterior distribution of the hidden image. However, this analytical approach is only tractable in simple cases. When the inverse problem is non-convex, **in high-dimension** or the measurement noise is complicated (e.g., non-Gaussian) the posterior distribution can quickly become intractable to compute analytically.
+
+Like in this [review](https://www.nature.com/articles/s43586-020-00001-2) `Bayesian statistics and modelling` they propose a new cheklist `WAMBS-v2` to correct the model back and forth:
 > WAMBS-v2, an updated version of the WAMBS (when to Worry and how to Avoid the Misuse of Bayesian Statistics) checklist.
+
+But I thought this checklist may be not so suitable for the problem in image restoration.
+
+On the other hand, the `Bayesian neural networks` is popular recently and may be a good choice to quantify uncertainty, `Bayesian neural networks` also splits the uncertainty to the `model uncertainty` and `data uncertainty`.
+
+The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher.
 
 ## Statement 
 All opinions are just my own and some content of this blog could be wrong or biased. If someone has a better explanation about this topic #deconvolution, please do let me know using [Twitter](https://twitter.com/weisong_zhao/status/1370308101690118146)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new).
