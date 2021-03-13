@@ -165,9 +165,9 @@ Like in this [review](https://www.nature.com/articles/s43586-020-00001-2) `Bayes
 
 But I thought this checklist may be not so suitable for the problem in image restoration.
 
-On the other hand, the `Bayesian neural networks` is popular recently and may be a good choice to quantify uncertainty, `Bayesian neural networks` also splits the uncertainty to the `model uncertainty` and `data uncertainty`.
+On the other hand, the `Bayesian neural networks` is popular recently and may be a good choice (the concept) to quantify uncertainty, `Bayesian neural networks` also splits the uncertainty to the `model uncertainty` and `data uncertainty`.
 
-The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher.
+The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher. By now, the [sparse deconvolution](https://www.researchsquare.com/article/rs-279271/v1) still depends on the "human-eye checklisk" and I wish that I, my colleagues, and other developers could somehow moderate this problem in the future.
 
 ## Statement 
 All opinions are just my own and some content of this blog could be wrong or biased. If someone has a better explanation about this topic #deconvolution, please do let me know using [Twitter](https://twitter.com/weisong_zhao/status/1370308101690118146)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new).
