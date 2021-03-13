@@ -1,7 +1,7 @@
 [![website](https://img.shields.io/badge/website-up-red.svg)](https://weisongzhao.github.io/rl_positivity_sim/)
 [![Github commit](https://img.shields.io/github/last-commit/WeisongZhao/rl_positivity_sim)](https://github.com/WeisongZhao/rl_positivity_sim/)
 [![paper](https://img.shields.io/badge/paper-In%20Review-black.svg)](https://www.researchsquare.com/article/rs-279271/v1/)<br>
-[![Twitter](https://img.shields.io/badge/Twitter-Doug%Shepherd-blue.svg)](https://weisongzhao.github.io/rl_positivity_sim#Doug)
+[![Twitter](https://img.shields.io/badge/Twitter-Doug%20Shepherd-blue.svg)](https://weisongzhao.github.io/rl_positivity_sim#Doug)
 
 <p>
 <h2 align="center">A small blog about deconvolution and machine learning</h2>
