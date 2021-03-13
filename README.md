@@ -145,10 +145,21 @@ All technologies have its boundaries, and using `proof by contradiction` to eval
 
 The unrestricted using and testing can lead to the strange results. But we were eager for the community to test it extensively, and exploring the boundaries of this method which will also give us or other developers the opportunity to push the algorithm limit further.
 
-## Outreach
+## Outreach and feedback
+
+<h3 align="center">
+FROM <a href="https://twitter.com/DougPShepherd">Doug Shepherd</a>.
+</h3>
+
 As point out by [Doug](https://twitter.com/DougPShepherd)
 > The ad hoc choice of parameters is part of what I am confused on. A correct Bayesian treatment would provide error bars and allow you to address the model selection problem that you are side-stepping.
-Though it may be a bit off-topic, it is true that 
+
+Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and feed-forward deep learning approaches for inverse problems typically focus on recovering a point estimate without estimating the uncertainty.
+
+In a Bayesian framework, this problem could ideally be addressed by accurately modeling the measurement noise, formulating an estimation problem, and computing the posterior distribution of the hidden image. However, this analytical approach is only tractable in simple cases. When the inverse problem is non-convex, **in high-dimension** or the measurement noise is complicated (e.g., non-Gaussian) the posterior distribution can quickly become intractable to compute analytically.
+
+In this [review](https://www.nature.com/articles/s43586-020-00001-2) `Bayesian statistics and modelling` they propose a new cheklist to correct the model back and forth:
+> WAMBS-v2, an updated version of the WAMBS (when to Worry and how to Avoid the Misuse of Bayesian Statistics) checklist.
 
 ## Statement 
 All opinions are just my own and some content of this blog could be wrong or biased. If someone has a better explanation about this topic #deconvolution, please do let me know using [Twitter](https://twitter.com/weisong_zhao/status/1370308101690118146)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new).
