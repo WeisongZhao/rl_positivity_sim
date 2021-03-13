@@ -150,13 +150,12 @@ The unrestricted using and testing can lead to the strange results. But we were 
 <h4  id="Doug" align="center">
 FROM <a href="https://twitter.com/DougPShepherd">Doug Shepherd</a>.
 </h4>
-<p>
-As point out by <a href="https://twitter.com/DougPShepherd">Doug</a>
+<p>As point out by <a href="https://twitter.com/DougPShepherd">Doug</a>
 <blockquote>The ad hoc choice of parameters is part of what I am confused on. A correct Bayesian treatment would provide error bars and allow you to address the model selection problem that you are side-stepping.</blockquote>
 
-Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and feed-forward deep learning approaches for inverse problems typically focus on recovering a point estimate without quantifying the uncertainty.<br>
+Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and feed-forward deep learning approaches for inverse problems typically focus on recovering a point estimate without quantifying the uncertainty.<br><br>
 
-The uncertainty estimation is actually an open question, and I thought that there exists no golden standard for all cases.<br>
+The uncertainty estimation is actually an open question, and I thought that there exists no golden standard for all cases.<br><br>
 
 In a Bayesian framework, this problem could be addressed by accurately modeling the measurement noise, formulating an estimation problem, and computing the posterior distribution of the hidden image. However, this analytical approach is only tractable in simple cases. When the inverse problem is non-convex, **in high-dimension** or the measurement noise is complicated (e.g., non-Gaussian) the posterior distribution can quickly become intractable to compute analytically.<br>
 
@@ -165,9 +164,9 @@ Like in this <a href="https://www.nature.com/articles/s43586-020-00001-2">review
 
 But I thought this checklist may be not so suitable for the problem in image restoration.<br>
 
-On the other hand, the <b>Bayesian neural networks</b> is popular recently and may be a good choice (the concept) to quantify uncertainty, <b>Bayesian neural networks</b> also splits the uncertainty to the <b>model uncertainty</b> and <b>data uncertainty</b>.<br>
+On the other hand, the <b>Bayesian neural networks</b> is popular recently and may be a good choice (the concept) to quantify uncertainty, <b>Bayesian neural networks</b> also splits the uncertainty to the <b>model uncertainty</b> and <b>data uncertainty</b>.<br><br>
 
-The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher. By now, the [sparse deconvolution](https://www.researchsquare.com/article/rs-279271/v1) still depends on the "human-eye checklisk" and I wish that I and my colleagues, and other developers could somehow moderate this problem in the future.<br>
+The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher. By now, the <a href="https://www.researchsquare.com/article/rs-279271/v1">sparse deconvolution</a> still depends on the "human-eye checklisk" and I wish that I and my colleagues, and other developers could somehow moderate this problem in the future.<br>
 </p>
 
 ## Statement 
