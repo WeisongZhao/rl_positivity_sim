@@ -165,7 +165,7 @@ The <b>photon number (SNR), sampling size (pixel size), and the OTF size (resolu
 
 As in the field of <b>single molecule localization</b>, the Cram´er Rao Lower Bound (CRLB) is derived to represent the limiting lower bound of the variance for any unbiased parameter estimator. More photon number, smaller sampling size, and larger OTF, will lead to smaller uncertainty.<br><br>
 
-The <b>single molecule localization</b> is actually the simplest situation, and We have already assumed that the estimator is unbiased, which means the model error will be limited to assess (but the model we established will never be unbiased). If coming to real deconvolution, I thought it will be incredible complicated. <br><br>
+The <b>single molecule localization</b> is actually the simplest situation, and We have already assumed that the estimator is unbiased, which means the model error will be limited to assess (but the model we established will never be unbiased). If coming to real deconvolution, I thought the model/data uncertainty will be incredible complicated. <br><br>
 
 The uncertainty assessment is actually an <b>open question</b>, and I thought that there still exists no golden-standard/solution for all cases.<br><br>
 
