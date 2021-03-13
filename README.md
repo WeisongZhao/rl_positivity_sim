@@ -161,7 +161,7 @@ FROM <a href="https://twitter.com/DougPShepherd">Doug Shepherd</a>.
 
 Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and feed-forward deep learning approaches for inverse problems typically focus on recovering a point estimate without quantifying the uncertainty.<br><br>
 
-The uncertainty estimation is actually an open question, and I thought that there exists no golden standard for all cases.<br><br>
+The uncertainty assessment is actually an open question, and I thought that there exists no golden-standard/solution for all cases.<br><br>
 
 In a Bayesian framework, this problem could be addressed by accurately modeling the measurement noise, formulating an estimation problem, and computing the posterior distribution of the hidden image. However, this analytical approach is only tractable in simple cases. When the inverse problem is non-convex, <b>in high-dimension</b> or the measurement noise is complicated (e.g., non-Gaussian) the posterior distribution can quickly become intractable to compute analytically.<br><br>
 Additionally, in this <a href="https://www.nature.com/articles/s43586-020-00001-2">review</a> <b>Bayesian statistics and modelling</b> they propose a new cheklist <b>WAMBS-v2</b> to correct the model back and forth:<br>
