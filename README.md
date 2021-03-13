@@ -150,7 +150,7 @@ The unrestricted using and testing can lead to the strange results. But we were 
 <h4 align="center">
 FROM <a href="https://twitter.com/DougPShepherd">Doug Shepherd</a>.
 </h4>
-
+<p id="Doug">
 As point out by [Doug](https://twitter.com/DougPShepherd)
 > The ad hoc choice of parameters is part of what I am confused on. A correct Bayesian treatment would provide error bars and allow you to address the model selection problem that you are side-stepping.
 
@@ -168,6 +168,7 @@ But I thought this checklist may be not so suitable for the problem in image res
 On the other hand, the `Bayesian neural networks` is popular recently and may be a good choice (the concept) to quantify uncertainty, `Bayesian neural networks` also splits the uncertainty to the `model uncertainty` and `data uncertainty`.
 
 The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher. By now, the [sparse deconvolution](https://www.researchsquare.com/article/rs-279271/v1) still depends on the "human-eye checklisk" and I wish that I, my colleagues, and other developers could somehow moderate this problem in the future.
+</p>
 
 ## Statement 
 All opinions are just my own and some content of this blog could be wrong or biased. If someone has a better explanation about this topic #deconvolution, please do let me know using [Twitter](https://twitter.com/weisong_zhao/status/1370308101690118146)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new).
