@@ -135,7 +135,7 @@ Admittedly, the reasonable usage of prior knowledge is a prerequisite for the me
 
 Although it still has its disadvantages (hard to use), I believe that [sparse deconvolution](https://www.researchsquare.com/article/rs-279271/v1) is currently the best and the most effective solution/method. Under a broader perspective, this is probably the TOP generative model in the field of unsupervised learning (including deep or non-deep models) for image restoration of fluorescence microscopy.
 
-All technologies have its boundary, and they are not suitable for using proof by contradiction. The success is success, the unsuccessful example will only illustrate the boundary of the technology. Just as all microscopes are suitable for imaging only a certain range of samples.
+All technologies have its boundaries, and using `proof by contradiction` to evaluate them may be not appropriate. The success is success, the unsuccessful example will only illustrate the boundary of the technology. Just as all microscopes are suitable for imaging only a certain range of samples.
 
 The unrestricted using and testing can lead to the strange results. But we were eager for the community to test it extensively, and exploring the boundaries of this method which will also give us or other developers the opportunity to push the algorithm limit further.
 
