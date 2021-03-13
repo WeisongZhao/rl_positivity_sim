@@ -99,7 +99,7 @@ Of course, it is extremely complex in real world, including Gaussian-Poisson noi
 
 The regularization function is necessary for obtaining a unique solution in under-constrained systems.
 
-<h4 align="center">argmin{L(x, y) + \lambda R(x)}</h4>
+<h4 align="center">argmin{L(x, y) + &lambda; R(x)}</h4>
 
 It is always a good way to add the corresponding prior knowledge to power the estimation. This word may be not restricting to deconvolution but all the algorithms.
 
