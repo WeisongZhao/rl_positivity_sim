@@ -1,7 +1,8 @@
 [![website](https://img.shields.io/badge/website-up-red.svg)](https://weisongzhao.github.io/rl_positivity_sim/)
 [![Github commit](https://img.shields.io/github/last-commit/WeisongZhao/rl_positivity_sim)](https://github.com/WeisongZhao/rl_positivity_sim/)
 [![paper](https://img.shields.io/badge/manuscript-in%20review-gray.svg)](https://www.researchsquare.com/article/rs-279271/v1/)
-[![Twitter](https://img.shields.io/badge/host-GitHub-black.svg)](https://github.com/WeisongZhao/rl_positivity_sim/)
+[![Host](https://img.shields.io/badge/host-GitHub-black.svg)](https://github.com/WeisongZhao/rl_positivity_sim/)
+[![views](https://img.shields.io/badge/total%20views-365-cyan.svg)](https://weisongzhao.github.io/rl_positivity_sim/)
 <br>
 [![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=Followed%20by&style=social)](https://twitter.com/weisong_zhao/status/1370308101690118146)
 [![Twitter](https://img.shields.io/twitter/follow/DougPShepherd?label=From%20Doug&style=social)](https://weisongzhao.github.io/rl_positivity_sim#Doug)<br>
@@ -179,7 +180,7 @@ On the other hand, the <b>Bayesian neural networks</b> become popular recently a
 The uncertainty assessment is actually an <b>open question</b>, and I thought that there still exists no golden-standard/solution for all cases.<br><br>
 
 The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher. By now, the <a href="https://www.researchsquare.com/article/rs-279271/v1">sparse deconvolution</a> still depends on the "human-eye checklisk" and I wish that I and my colleagues, and other developers could somehow moderate this imperfection in the future.<br><br>
- 
+
 </p>
 
 ## Statement 
