@@ -1,18 +1,24 @@
 [![website](https://img.shields.io/badge/website-up-red.svg)](https://weisongzhao.github.io/rl_positivity_sim/)
-[![Github commit](https://img.shields.io/github/last-commit/WeisongZhao/rl_positivity_sim)](https://github.com/WeisongZhao/rl_positivity_sim/)
+[![paper](https://img.shields.io/badge/related%20manuscript-in%20review-blue.svg)](https://www.researchsquare.com/article/rs-279271/v1/)
 [![Host](https://img.shields.io/badge/host-GitHub-black.svg)](https://github.com/WeisongZhao/rl_positivity_sim/)
+<br>
+[![Github commit](https://img.shields.io/github/last-commit/WeisongZhao/rl_positivity_sim)](https://github.com/WeisongZhao/rl_positivity_sim/)
 [![views](https://img.shields.io/badge/total%20views-365-black.svg)](https://weisongzhao.github.io/rl_positivity_sim/)
 <br>
 [![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=Followed%20by&style=social)](https://twitter.com/weisong_zhao/status/1370308101690118146)
 [![Twitter](https://img.shields.io/twitter/follow/DougPShepherd?label=From%20Doug&style=social)](https://weisongzhao.github.io/rl_positivity_sim#Doug)<br>
 
 <h2 align="center">A small blog about deconvolution and machine learning</h2>
+ 
+
 
 <h3 align="center">
 The <a href="https://weisongzhao.github.io/rl_positivity_sim/">web version</a> of this blog is recommended.
 </h3>
 
-[![paper](https://img.shields.io/badge/related%20manuscript-in%20review-blue.svg)](https://www.researchsquare.com/article/rs-279271/v1/) Inspired by the idea of [Andrew](https://twitter.com/AndrewGYork) for the scientific discussions on GitHub, I post a GitHub page to have an open discussion on the deconvolution topic, all opinions are my own and may not be right.
+Inspired by the idea of [Andrew](https://twitter.com/AndrewGYork) for the scientific discussions on GitHub, I post a GitHub page to have an open discussion on the deconvolution topic, all opinions are my own and may not be right. 
+
+
 
 Please just leave a message on [Twitter](https://twitter.com/weisong_zhao/status/1370308101690118146)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new) if you are interested. 
 
