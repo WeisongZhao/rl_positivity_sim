@@ -163,7 +163,7 @@ FROM <a href="https://twitter.com/DougPShepherd">Doug Shepherd</a>.
 <p>As point out by <a href="https://twitter.com/DougPShepherd">Doug</a>
 <blockquote>The ad hoc choice of parameters is part of what I am confused on. A correct Bayesian treatment would provide error bars and allow you to address the model selection problem that you are side-stepping.</blockquote>
 
-Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and feed-forward deep learning approaches for inverse problems typically focus on recovering a point estimate without quantifying the uncertainty.<br><br>
+Though it may be a bit off-topic, it is true that deconvolution (MLE, MAP) and feed-forward deep learning approaches for inverse problems typically focus on recovering a point estimate without quantifying the uncertainty (or assuming that the variance is homoscedastic).<br><br>
 
 The <b>photon number (SNR), sampling size (pixel size), and the OTF size (resolution)</b> will be related to the uncertainty. <br><br>
 
