@@ -182,7 +182,7 @@ On the other hand, the <b>Bayesian neural networks</b> become popular recently a
 
 The uncertainty assessment is actually an <b>open question</b>, and I thought that there still exists no golden-standard/solution for all cases.<br><br>
 
-The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher. By now, the <a href="https://www.researchsquare.com/article/rs-279271/v1">sparse deconvolution</a> still depends on the "human-eye checklisk" and I wish that I and my colleagues, and other developers could somehow moderate this imperfection in the future.<br><br>
+The map has been explored bit by bit, now is indeed a good opportunity for the developers to solve/understand the illed-posed inverse problem futher. By now, the <a href="https://www.researchsquare.com/article/rs-279271/v1">sparse deconvolution</a> still depends on the "human-eye checklist" and I wish that I and my colleagues, and other developers could somehow moderate this imperfection in the future.<br><br>
 
 </p>
 
