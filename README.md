@@ -186,7 +186,7 @@ The map has been explored bit by bit, now is indeed a good opportunity for the d
 
 </p>
 
-## Statement 
+## Declaration 
 All opinions are just my own and some content of this blog could be wrong or biased. If someone has a better explanation about this topic #deconvolution, please do let me know using [Twitter](https://twitter.com/weisong_zhao/status/1370308101690118146)/[GitHub-issue](https://github.com/WeisongZhao/rl_positivity_sim/issues/new).
 
 ## REFERENCES
