@@ -3,7 +3,7 @@
 [![Host](https://img.shields.io/badge/host-GitHub-black.svg)](https://github.com/WeisongZhao/rl_positivity_sim/)
 <br>
 [![Github commit](https://img.shields.io/github/last-commit/WeisongZhao/rl_positivity_sim)](https://github.com/WeisongZhao/rl_positivity_sim/)
-[![views](https://img.shields.io/badge/total%20views-493-black.svg)](https://weisongzhao.github.io/rl_positivity_sim/)
+[![views](https://img.shields.io/badge/total%20views-501-black.svg)](https://weisongzhao.github.io/rl_positivity_sim/)
 <br>
 [![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=Followed%20by&style=social)](https://twitter.com/weisong_zhao/status/1370308101690118146)
 [![Twitter](https://img.shields.io/twitter/follow/DougPShepherd?label=From%20Doug&style=social)](https://weisongzhao.github.io/rl_positivity_sim#Doug)<br>
