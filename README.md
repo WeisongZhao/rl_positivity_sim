@@ -24,6 +24,11 @@ Please just leave a message on [Twitter](https://twitter.com/weisong_zhao/status
 
 ## Inverse problem
 
+<p align='left'>
+<i>Words written in the front: Physical resolution is meaningless if in the mathmetical space.</i>
+</p>
+
+
 First, I intend to talk about a little background of the `inverse problem` and `deconvolution`.
 
 For me, the `deconvolution` is actually a `classical machine learning` method, rather than an `optical method`, that estimate the hidden parameter (real signal) from the measured parameter (camera image). 
