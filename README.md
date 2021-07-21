@@ -10,7 +10,9 @@
 
 <h2 align="center">A small blog about deconvolution and machine learning</h2>
  
-
+<p align='left'>
+<i>Words written in the front: Physical resolution is meaningless if in the mathmetical space.</i>
+</p>
 
 <h3 align="center">
 The <a href="https://weisongzhao.github.io/rl_positivity_sim/">web version</a> of this blog is recommended.
@@ -24,9 +26,7 @@ Please just leave a message on [Twitter](https://twitter.com/weisong_zhao/status
 
 ## Inverse problem
 
-<p align='left'>
-<i>Words written in the front: Physical resolution is meaningless if in the mathmetical space.</i>
-</p>
+
 
 
 First, I intend to talk about a little background of the `inverse problem` and `deconvolution`.
