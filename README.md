@@ -141,7 +141,7 @@ Thus, `sparsity` recovers the high frequency information (towards to the real si
 
 [HERE](https://www.researchsquare.com/article/rs-279271/v1) can find more details and results of the sparse deconvolution.
 
-SEE also my [website](https://weisongzhao.github.io/MyWeb2/portfolio-4-col.html).
+SEE also my [website](https://weisongzhao.github.io/home/portfolio-4-col.html).
 
 ## Summary and outlook 
 Admittedly, the reasonable usage of prior knowledge is a prerequisite for the method to really apply to the biological applications. Unreasonable parameters do lead to less-than-ideal results.
