@@ -29,7 +29,7 @@ Please just leave a message on [Twitter](https://twitter.com/weisong_zhao/status
 
 
 
-First, I intend to talk about a little background of the `inverse problem` and `deconvolution`.
+At the beginning, I intend to talk about a little background of the `inverse problem` and `deconvolution`.
 
 For me, the `deconvolution` is actually a `classical machine learning` method, rather than an `optical method`, that estimate the hidden parameter (real signal) from the measured parameter (camera image). 
 
